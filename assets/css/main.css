@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image:url(../img/wp1874156-restaurant-wallpapers.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+li a button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 404;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10% 0 10%;
+}
+.container{
+    margin-bottom: 1px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    height: 60px;
+}
+.navigation{
+    list-style: none;
+    background-color: black;
+}
+.navigation li {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: black;
+}
+.navigation li a {
+    transition: all 0.3s ease 0s;
+    background-color: black;
+    color: #afb3b2;
+    text-decoration: none;
+    padding: 2px;
+}
+.navigation li a:hover {
+    color: #eb0000;
+    border-bottom: 2px solid #eb0000;
+    border-top: 2px solid #eb0000;
+    
+}
+
+button{
+    padding: 6px 25px;
+    background-color:#00b4eb;
+    border:#94fffa ;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: #ccfff7;
+    transition: all 0.3s ease 0s;
+}
+.wrappp{
+    padding-top:70px; 
+    background-color: #00000086;
+    background-size: 100%; 
+    padding-bottom: 0; 
+    opacity: 1; 
+    height: 662px;
+}
+.wrappp .tekss{
+    padding-top:100px ; 
+    text-align: left; 
+    margin-left: 50px; 
+    color: whitesmoke; 
+    opacity: 1;
+}
+.wrappp .tekss h1{
+  font-size: 80px;
+  font-family: 'Fondamento', cursive;
+  font-weight: lighter;  
+}
+.wrappp .tekss hr{
+    size: 20px; width: 680px;
+}
+.wrappp .tekss h2{
+    font-size: 40px;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: lighter;
+}
+
+
