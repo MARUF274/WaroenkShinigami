@@ -19,6 +19,9 @@ li a button {
     color: azure;
     text-decoration: none;
 }
+.cta a{
+    text-decoration: none;
+}
 header{
     display: flex;
     justify-content: flex-end;
@@ -29,6 +32,7 @@ header{
     margin-bottom: 1px;
     background-color: black;
     width: 100%;
+    border-bottom: 2px solid rgba(31, 253, 242, 0.61);
     position: fixed;
 }
 .logo{
@@ -115,6 +119,7 @@ button:hover{
   grid-gap: 50px;
   justify-content: center;
   align-items: center;
+  
   height: 70vh;
   background-color: #000000b0;
   font-family: 'Baloo Paaji 2', cursive;

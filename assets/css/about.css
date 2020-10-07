@@ -16,6 +16,10 @@ li a button {
     font-size: 16px;
     color: azure;
     text-decoration: none;
+
+}
+.cta a{
+    text-decoration: none;
 }
 header{
     display: flex;
@@ -25,10 +29,10 @@ header{
 }
 .container{
     margin-bottom: 1px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.753);
     width: 100%;
-    border-bottom: 2px solid rgba(31, 253, 242, 0.61);
     position: fixed;
+    border-bottom: 2px solid rgba(31, 253, 242, 0.61);
 }
 .logo{
     cursor: pointer;
@@ -73,34 +77,39 @@ button:hover{
 }
 .wrappp{
     padding-top:70px; 
-    background-color: #00000086;
+    background-color: #000000e7;
     background-size: 100%; 
     padding-bottom: 0; 
     opacity: 1; 
     height: 662px;
 }
-.cta a{
-    text-decoration: none;
-}
 .wrappp .tekss{
     padding-top:100px ; 
-    text-align: left; 
+    margin-bottom: 20px; 
     margin-left: 50px; 
     color: whitesmoke; 
     opacity: 1;
+    margin-left: 10%;
+    margin-right:10% ;
 }
 .wrappp .tekss h1{
   font-size: 80px;
   font-family: 'Fondamento', cursive;
   font-weight: lighter;  
+  text-align: center; 
 }
 .wrappp .tekss hr{
-    size: 20px; width: 680px;
+    size: 20px; width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
-.wrappp .tekss h2{
+.wrappp .tekss h4{
     font-size: 40px;
     font-family: 'Racing Sans One', cursive;
     font-weight: lighter;
+    text-align: justify;
+
 }
 
 
